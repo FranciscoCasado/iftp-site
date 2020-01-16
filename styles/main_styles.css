@@ -477,7 +477,6 @@ section
 	max-width: 1660px;
 	height: 100vh;
 	max-height: 900px;
-	background-color: #4867c0;
 	margin: 0 auto;
 }
 .home_background
@@ -1201,8 +1200,10 @@ section
 .cta
 {
 	width: 100%;
+	max-width: 1660px;
 	padding-top: 105px;
 	padding-bottom: 101px;
+	margin: auto;
 }
 .cta_title
 {
@@ -1229,6 +1230,7 @@ section
 .footer_content
 {
 	padding-top: 108px;
+	max-width: 1660px;
 	padding-bottom: 115px;
 }
 .footer_about
