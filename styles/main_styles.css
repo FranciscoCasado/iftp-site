@@ -220,6 +220,7 @@ section
 {
 	width: 100%;
 	overflow: hidden;
+	background: linear-gradient(180deg, rgb(0, 39, 78) 0%, rgba(0,7,83,1) 100%);
 }
 .prlx_parent
 {
@@ -473,8 +474,11 @@ section
 
 .home
 {
-	width: 100%;
+	max-width: 1660px;
 	height: 100vh;
+	max-height: 900px;
+	background-color: #4867c0;
+	margin: 0 auto;
 }
 .home_background
 {
@@ -485,7 +489,7 @@ section
 	height: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
+	background-position: center top;
 }
 .home_content_container
 {
