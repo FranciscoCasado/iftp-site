@@ -474,7 +474,6 @@ section
 
 .home
 {
-	max-width: 1660px;
 	height: 100vh;
 	max-height: 900px;
 	margin: 0 auto;
@@ -499,7 +498,7 @@ section
 }
 .home_content
 {
-	max-width: 870px;
+	max-width: 840px;
 }
 .home_date
 {
