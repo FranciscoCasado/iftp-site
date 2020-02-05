@@ -22,6 +22,9 @@ h1, h2, h3, h4, h5,
 h1 {
   text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
 }
+h3 {
+  font-size: medium;
+}
 
 p {
   color: #1d1d1d;
@@ -30,10 +33,11 @@ p {
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
-  transition: .3s all ease; }
+  transition: .3s all ease;
+  color: #999999; }
   a:hover {
     text-decoration: none;
-    color: #999999;}
+    color: dodgerblue;}
 
 .regular-font-size {
   font-size: 1rem !important; }
@@ -87,8 +91,8 @@ a {
     border-color: #e6e7e9;
     color: #fff; }
   .btn.btn-secondary {
-    background-color: #e6e7e9;
-    border-color: #e6e7e9;
+    background-color: transparent;
+    border-color: dimgray;
     color: #000; }
   .btn.btn-sm {
     font-size: 0.9rem; }
@@ -992,7 +996,7 @@ a {
 
 #date-countdown .label {
   font-size: 30px;
-  color: #f23a2e;
+  color: #2a589c;
   display: block;
   line-height: 1; }
 
