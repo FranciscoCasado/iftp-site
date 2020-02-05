@@ -33,7 +33,7 @@ a {
   transition: .3s all ease; }
   a:hover {
     text-decoration: none;
-    color: #2744a5}
+    color: #999999;}
 
 .regular-font-size {
   font-size: 1rem !important; }
